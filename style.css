@@ -1,0 +1,66 @@
+*{padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-sarif;
+}
+
+body {
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://source.unsplash.com/random/700x300/?technology);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.digital-clock {
+border: 5px solid rgb(0, 0, 255) ;
+border-radius: 1em;
+padding: 2rem 4rem;
+backdrop-filter: brightness(60);
+}
+
+h1 {
+  text-align: center ;
+  font-weight: 600;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 0.5rem;
+  color: rgb(255, 0, 0);
+  background-color: rgb(0, 255, 123) ;
+  border-radius: 0.25rem;  
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 5rem 0;
+}
+
+.hours, .minutes, .seconds, .am-pm {
+  border: 5px solid green;
+  border-radius: 10%;
+  font-size: 3rem ;
+  font-weight: 500;
+  padding: 1rem;
+  background-color: beige;
+}
+.am-pm{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0.5rem;
+  align-self: end;
+  font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
